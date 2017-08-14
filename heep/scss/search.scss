@@ -1,0 +1,86 @@
+@import "main.scss";
+
+
+.searchHeader{
+                width: 100%;
+                height: 44px;
+                @include flexBox;
+                @include flex-direction("row");
+                text-align: center;
+                background-color:#F8F9FA;
+                
+                box-shadow: 0px 3px 2px rgba(0,0,0,.1);
+
+                .goods{
+                    flex:1;
+                    display:flex;
+                    input{
+                    	flex:1;
+                    	margin:10px 5px;
+	                    font-size:12px;
+	                    text-indent: 8px;
+                        @include flex-center;
+                         color: #666;
+                    }
+                    
+                }
+                .title{
+                    width:40px;
+                   border:1px solid red;
+                    color:#EF83A4;
+                    border-radius:5px;
+                    margin:10px 0px;
+                    font-size: 12px;font-weight:100;
+                    font-family:"Times New Roman",Georgia,Serif;
+                    @include flex-center;
+                }
+                .moreInfo{
+                    width: 50px;
+                    font-size:22px;
+                    color:#949495;
+                    @include flex-center;
+                }
+            }
+    #content{
+        //  display:none;
+    	margin-top: 4px;
+    	  background-color:#F6F6F6;
+    	  width:100%;height:100%;
+    	  p{
+    	  	width:90%;margin:0 5%;font-size:12px;
+    	  	display:flex;flex-wrap:wrap;
+    	  	span{
+				display:block;padding: 2px 5px;border:1px solid #000;
+				border-radius:3px;margin:5px 5px;
+
+    	  	}
+    	  	.light1{
+					color:red;border-color: red;
+				}
+    	  	&:first-child{
+    	  		margin-top:10px
+
+    	  	}
+    	  }
+    }
+    .list{
+            margin-top: 4px;
+          background-color:#F6F6F6;
+          width:100%;height:100%;
+          display:none;
+          overflow-y:auto; 
+          ul{
+            width:100%;
+            li{width:90%;height:36px;margin:0 auto;border-bottom: 1px solid #EFEFEF; 
+                font-size:12px;
+                line-height: 36px;}
+          }
+    }
+        .dong1{
+        width: 14px;height: 14px;line-height: 14px;border-radius: 50%;
+        background: red;color: #fff;text-align: center;
+        position: fixed;
+        bottom:50%;left: 50%;
+        display: none;
+    }
+    

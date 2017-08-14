@@ -1,0 +1,70 @@
+@import "main.scss";//工具类css----兼容性
+.lick{
+    width: 100%;height:100%;
+    overflow-y: auto;
+    .lickhead{
+        width: 100%;
+        height: 36px;
+        box-shadow: 0 2px 3px rgba(0 ,0, 0, .5);
+        line-height: 36px;background: #FAFBFC;
+        color: #BDBDBE;font-size: 12px;
+        text-align: center;
+        .back{
+            float: left;margin-left: 15px;
+        }
+    }
+    
+        
+    .goods{
+        width: 90%;margin-left: 5%;font-size:12px;margin-bottom:40px;
+        h1{
+            width: 100%;font-weight: 100;height: 20px;line-height: 20px;
+            margin-top: 10px;
+          
+        }
+          .goodslist{
+                width: 100%;
+                 border-top: 1px solid #eee;
+                li{
+                    width: 100%;height: auto;
+                    border-bottom: 1px dashed #eee;
+                    img{
+                        width:30%;height: auto;
+
+                    }
+                    .right{
+                         float: right;width: 60%;
+                        p{
+                            line-height: 25px;line-height: 25px;
+                            white-space: nowrap;
+                            overflow: hidden;
+                            text-overflow: ellipsis;
+                            &:nth-of-type(1){
+                                margin-top:10px; 
+                            }
+                           
+                        }
+                        .jia{
+                           
+                            i{
+                                text-align: right;
+                            }
+                        }
+                    }
+                }
+            }
+            p{
+                height: 30px;line-height: 30px;
+                .right{
+                    float: right;color: red;
+                }
+            }
+          .mei{
+              width: 100%;
+              margin:100px auto;
+              text-align: center;
+              line-height: 100%;
+              font-size:20px;
+          }      
+    }
+}

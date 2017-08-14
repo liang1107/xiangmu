@@ -1,0 +1,178 @@
+@import "main.scss";//工具类css----兼容性
+
+#homecontent{
+            width: 100%;
+			overflow: auto;
+		
+           &::-webkit-scrollbar {display:none};
+           @include flex(1);
+			.swiper-container{
+					width: 100%;
+					height: 120px;
+					
+			}
+				.swiper-slide img{
+					width: 100%;
+				}
+				.swiper-container .swiper-pagination{
+					text-align: right;
+				}
+
+
+				.banner1{
+					width:100%;height: 84px;margin-bottom: 5px;
+					box-shadow: 0px 2px 2px 2px rgba(0, 0,0,.2);
+					display: flex;
+					img{
+						width:25%;
+
+					}
+				}
+
+
+				.chai{
+					width:100%;background: #F6F6F6;font-size:0px;
+					img{
+						width: 100%;
+					}
+				}
+				#benner3{
+					width:100%;height:auto;
+					.swiper-wrapper{
+					width: 100%;
+					height: auto;
+					img{
+						margin:10px;
+					}
+				}
+
+				
+			
+        }
+}
+	
+			#homecontent #lis1{
+					width:100%;
+					padding:5px 0px; 
+					background: #F6F6F6;
+					border-top:1px solid #eee;
+					border-bottom:1px solid #eee;
+					.homelist1{
+						background: #Fff;
+					}
+				}
+			
+			.quan{
+				width: 100%;background: #F1F1F1;
+				h1{
+					font-size: 12px;
+					text-align: center;
+					line-height: 24px;
+					height: 24px;
+					color: #666;
+				}
+				.quan1{
+					width: 100%;
+					font-size: 0px;
+				}
+				.banner5{
+					width: 100%;
+
+					#beebanner{
+						width:100%;height:auto;
+						.swiper-slide{
+							width:100%;
+							box-sizing: border-box;
+							
+							.img{
+
+									border-right: 1px solid #eee;box-sizing: border-box;
+								width:33.5%;border-bottom: 1px solid #eee;
+							}
+							.imgs{
+									float: right;
+									display: flex;
+									flex-wrap: wrap;
+									width:66.5%;
+									img{box-sizing: border-box;
+										border-right: 1px solid #eee;
+										border-bottom: 1px solid #eee;
+										width: 50%;height:50%;
+									}
+								}
+						}
+					}
+				}
+
+				.homelist2{
+					width: 100%;
+					.ls1tu{
+						width: 100%;
+						overflow: hidden;
+						img{
+							width: 100%;
+						}
+						.holi2{
+							width:100%;height:auto;
+							.img1{
+								background:#fff;text-align:center;
+								img{
+									margin:5px;
+									box-sizing: border-box;
+								}
+								.qian{
+									text-align: center;
+								}
+							}
+					
+						}
+						p{
+							font-size: 12px;height:24px;
+							line-height: 24px;
+							background:#fff;
+
+							span{
+								color: red;margin-right:20px;margin-left:10px;
+							}
+						}
+					}
+
+				}
+
+
+			}
+			.cat2{
+				position: fixed;
+				width: 100%;max-width: 640px;margin: 0 auto;
+				bottom: 10%;
+				box-sizing: border-box;
+				
+				z-index: 99999;
+				.cat1{
+					float: left;
+					width: 40px;height:40px;
+					background: #000;color: #fff;
+					@include flex-center;
+					margin-left: 10px;
+					box-shadow: 0px 2px 5px  #000;
+					font-size: 30px;
+				}
+				.dong{
+					float: right;
+					width: 40px;height:40px;color: #fff;
+					border-radius: 50%;
+					background: rgba(0, 0,0,.5);
+					text-align: center;
+					font-size: 12px;
+					margin-right: 10px;
+					padding-top: 5px;
+					box-sizing: border-box;
+					display:none;
+				}
+			}
+			.homelist1{
+				img{
+					width: 100%;
+				}
+			}
+

@@ -1,0 +1,122 @@
+@import "main.scss";//工具类css----兼容性
+.cart{
+    width: 100%;height:100%;
+    overflow-y: auto;
+    .carthead{
+        width: 100%;
+        height: 36px;
+        box-shadow: 0 2px 3px rgba(0 ,0, 0, .5);
+        line-height: 36px;background: #FAFBFC;
+        color: #BDBDBE;font-size: 12px;
+        text-align: center;
+        .back{
+            float: left;margin-left: 15px;
+        }
+    }
+    .nogoods{
+        width: 100%;height: 100%;
+        background: #F6F6F6;
+        display: flex;
+        flex-direction: column;
+        p{
+            text-align: center;font-size:12px;
+            &:nth-of-type(1){
+                font-size: 100px;
+                margin-top: 20px;
+            }
+            &:nth-of-type(2){
+               line-height: 24px;
+            }
+            &:nth-of-type(3){
+               line-height: 24px;
+            }
+           
+        }
+         .guang{
+                width:40%;height: 44px;
+                background: #FF0056;
+                text-align: center;
+                line-height: 44px;
+                margin: 20px auto;
+                border-radius: 3px;
+               
+                a{
+                     color:#fff;
+                }
+            }
+    }
+    .goods{
+        width: 90%;margin-left: 5%;font-size:12px;margin-bottom:40px;
+        h1{
+            width: 100%;font-weight: 100;height: 20px;line-height: 20px;
+            margin-top: 10px;
+          
+        }
+          .goodslist{
+                width: 100%;
+                 border-top: 1px solid #eee;
+                li{
+                    width: 100%;height: auto;
+                    border-bottom: 1px dashed #eee;
+                    img{
+                        width:30%;height: auto;
+
+                    }
+                    .right{
+                         float: right;width: 60%;
+                        p{
+                            line-height: 25px;line-height: 25px;
+                            white-space: nowrap;
+                            overflow: hidden;
+                            text-overflow: ellipsis;
+                            &:nth-of-type(1){
+                                margin-top:10px; 
+                            }
+                           
+                        }
+                        .jia{
+                            span{
+                                display: inline-block;width: 20px;height: 18px;
+                                border:1px solid #F6F6F6;text-align: center;
+                            }
+                            i{
+                                text-align: right;
+                            }
+                        }
+                    }
+                }
+            }
+            p{
+                height: 30px;line-height: 30px;
+                .right{
+                    float: right;color: red;
+                }
+            }
+
+    }
+        .xia{
+        width: 100%;
+        height: 40px;background:#fff;
+        position: fixed;
+        bottom: 0px;right: 0px;
+        border-top: 1px solid #BDBDBE;
+        span{
+            line-height: 40px;
+            margin-left: 10px; 
+            font-size: 20px;
+            font-size: 12px;
+            a{
+                color: #fff;text-decoration: none;
+            }
+        }
+        .right{
+            width: 25%;height: 100%;
+            background: #FF0056;
+            color: #fff;font-size: 12px;
+            text-align: center;
+            line-height: 40px;
+            float: right;
+        }
+        
+    }
+}

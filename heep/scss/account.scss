@@ -1,0 +1,103 @@
+@import "main.scss";//工具类css----兼容性
+.account{
+    width: 100%;height:100%;overflow-y:auto;
+    overflow-x: hidden;
+    .accounthead{
+        width: 100%;
+        height: 36px;
+        box-shadow: 0 2px 3px rgba(0 ,0, 0, .5);
+        line-height: 36px;background: #FAFBFC;
+        color: #000;font-size: 12px;
+        text-align: center;
+        .back{
+            float: left;margin-left: 15px;
+        }
+        .right{
+             float: right;margin-right: 15px;
+             font-size: 24px;
+        }
+    }
+    .pink{
+        width: 100%;height: 70px;background: pink;padding-top:10px;
+        overflow: hidden;line-height:70px;
+        
+        .yonhu1{
+               width: 100%;height: 100%; 
+                .div{
+                        width:50px;height: 50px;margin-top: 10px;
+                        margin-left: 30px;border: 1px solid #000;
+                        border-radius: 50%;
+                        margin-right: 10px;
+                        background:#fff;
+                         float: left;
+                        
+
+                    }
+               .yong{
+                  float: left;
+                  margin-left: 10px;
+               }
+        }
+       
+
+    }
+   
+    .ding{
+        width: 100%;height: 36px;
+        // border-top:1px solid #E0E0E0;
+        border-bottom: 1px solid #E0E0E0;line-height:36px;
+        box-sizing: border-box;
+        font-size: 12px;
+         .left{
+             float: left;margin-left: 10px;
+         }
+        .right{
+            float: right;margin-right: 10px;
+        }
+        
+    }
+    
+    
+    .dai{
+        display: flex;height: 44px;font-size: 12px;line-height: 44px;
+        border-bottom:  1px solid #E0E0E0;
+        div{
+            flex: 1;text-align: center;
+        }
+    }
+    .fa{
+        width: 100%;height: 70px;
+           background: #F6F6F6;overflow: hidden;
+            font-size: 12px;
+        .fa1{
+            margin-top: 15px;height:40px;border-top:1px solid #E0E0E0;border-bottom: 1px solid #E0E0E0;
+            background:#fff; line-height:40px;
+            .left{
+                float: left;margin-left: 10px;
+            }
+            .right{
+                float: right;margin-right: 10px;
+            }
+        }
+    }
+    .xian{
+        height: 8px;background: #F6F6F6;
+    }
+    .dibu{
+        width: 100%;height: 100px;display:flex;font-size: 12px;
+        flex-direction: column;background:#F6F6F6;
+        .shang{
+            width:100%;height: 33px;flex: 1;
+            box-sizing: border-box;
+            margin-left: 30%;
+           
+            a{
+                margin-right:10px; 
+            }
+        }
+        p{
+            flex: 1;text-align: center;
+        }
+    }
+    
+}
